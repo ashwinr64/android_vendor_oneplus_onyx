@@ -1,0 +1,13 @@
+<permissions>
+    <feature name="oem.threeStageKey.support" />
+    <feature name="oem.prox.calibration.support" />
+    <feature name="oem.otgSwitch.support" />
+    <feature name="oem.themedark.support" />
+    <feature name="oem.amoled.support" />
+    <feature name="oem.threeScreenshot.support" />
+    <feature name="oem.ambient.support" />
+    <feature name="oem.dullanucher.support" />
+    <feature name="oem.direct.support" />
+    <feature name="oem.inexact.alarm" />
+    <feature name="oem.impedance.notsupport" />
+</permissions>

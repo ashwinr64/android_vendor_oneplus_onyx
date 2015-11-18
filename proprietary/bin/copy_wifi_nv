@@ -1,0 +1,27 @@
+#! /system/bin/sh
+src=/system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
+dst=/persist/WCNSS_qcom_wlan_nv.bin
+
+#src=src_file
+#dst=dst_file
+
+echo "#####check $src"
+if [ ! -f "$src" ]; then
+echo "$src not exist, now exit"
+else
+
+echo "#####check $dst"
+if [ ! -f "$dst" ]; then
+echo "$dst not exist, copy $src to $dst"
+cp $src $dst
+else
+echo "$dst exist, diff $src and $dst"
+diff $src $dst 
+if [ "${?}" == "0" ]; then
+echo "$src and $dst are the same"
+else
+echo "$src and $dst are not the same, copy $src to $dst"
+cp $src $dst
+fi
+fi
+fi

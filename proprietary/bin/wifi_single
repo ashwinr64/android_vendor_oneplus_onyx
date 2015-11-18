@@ -1,0 +1,8 @@
+#!/system/bin/sh
+cd /system/lib/modules
+insmod wlan.ko con_mode=5
+
+# 8994 use ftmdaemon
+# 8974 use ptt_socket_app
+#ftmdaemon -n
+ptt_socket_app -v -d -f

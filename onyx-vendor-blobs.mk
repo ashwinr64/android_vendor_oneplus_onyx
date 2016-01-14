@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/oneplus/onyx/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/oneplus/onyx/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/oneplus/onyx/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/oneplus/onyx/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \

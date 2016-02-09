@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,8 +18,6 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/oneplus/onyx/overlay
 
 PRODUCT_PACKAGES += \
-    PPPreference \
-    QuickBoot \
     qcrilmsgtunnel \
     shutdownlistener
 
@@ -31,12 +29,13 @@ PRODUCT_PACKAGES += \
     TimeService
 
 PRODUCT_PACKAGES += \
-    libscale \
-
-PRODUCT_PACKAGES += \
-    libwvdrmengine \
-    libwvdrm_L3 \
-    libwvm \
-    libWVStreamControlAPI_L3
+    libqmi \
+    libmdmdetect \
+    libqmiservices \
+    libidl \
+    libqcci_legacy \
+    libdiag \
+    libqmi_client_qmux \
+    libdsutils \
 
 $(call inherit-product, vendor/oneplus/onyx/onyx-vendor-blobs.mk)

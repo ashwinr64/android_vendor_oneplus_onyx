@@ -132,15 +132,26 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/onyx/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
-        vendor/oneplus/onyx/proprietary/bin/loc_launcher:/system/bin/loc_launcher \
-        vendor/oneplus/onyx/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
-        vendor/oneplus/onyx/proprietary/lib/libloc_ds_api.so:/system/lib/libloc_ds_api.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:/system/vendor/lib/hw/activity_recognition.msm8974.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/hw/flp.default.so:/system/vendor/lib/hw/flp.default.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libflp.so:/system/vendor/lib/libflp.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libgeofence.so:/system/vendor/lib/libgeofence.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/liblbs_core.so:/system/vendor/lib/liblbs_core.so \
+        vendor/oneplus/onyx/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+        vendor/oneplus/onyx/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
+        vendor/oneplus/onyx/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+        vendor/oneplus/onyx/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+        vendor/oneplus/onyx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+        vendor/oneplus/onyx/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+        vendor/oneplus/onyx/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
+        vendor/oneplus/onyx/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+        vendor/oneplus/onyx/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
+        vendor/oneplus/onyx/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
+        vendor/oneplus/onyx/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
+        vendor/oneplus/onyx/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+        vendor/oneplus/onyx/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+        vendor/oneplus/onyx/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+        vendor/oneplus/onyx/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+        vendor/oneplus/onyx/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
+        vendor/oneplus/onyx/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+        vendor/oneplus/onyx/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
+        vendor/oneplus/onyx/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+        vendor/oneplus/onyx/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/egl/eglsubAndroid.so:/system/vendor/lib/egl/eglsubAndroid.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/egl/libEGL_adreno.so:/system/vendor/lib/egl/libEGL_adreno.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:/system/vendor/lib/egl/libGLESv1_CM_adreno.so \

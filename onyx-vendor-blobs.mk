@@ -38,7 +38,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/onyx/proprietary/vendor/lib/soundfx/libqcreverb.so:/system/vendor/lib/soundfx/libqcreverb.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/soundfx/libqcvirt.so:/system/vendor/lib/soundfx/libqcvirt.so \
         vendor/oneplus/onyx/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
-        vendor/oneplus/onyx/proprietary/lib/hw/camera.msm8974.so:/system/lib/hw/camera.msm8974.so \
+        vendor/oneplus/onyx/proprietary/lib/hw/camera.vendor.msm8974.so:/system/lib/hw/camera.vendor.msm8974.so \
         vendor/oneplus/onyx/proprietary/lib/libFNVfbEngineLib.so:/system/lib/libFNVfbEngineLib.so \
         vendor/oneplus/onyx/proprietary/lib/libmmcamera_interface.so:/system/lib/libmmcamera_interface.so \
         vendor/oneplus/onyx/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \

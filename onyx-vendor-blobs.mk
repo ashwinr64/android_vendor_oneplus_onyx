@@ -194,8 +194,8 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/onyx/proprietary/vendor/lib/librs_adreno_sha1.so:/system/vendor/lib/librs_adreno_sha1.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libsc-a3xx.so:/system/vendor/lib/libsc-a3xx.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libscale.so:/system/vendor/lib/libscale.so \
-        vendor/oneplus/onyx/proprietary/etc/firmware/a330_pfp.fw:/system/etc/firmware/a330_pfp.fw \
-        vendor/oneplus/onyx/proprietary/etc/firmware/a330_pm4.fw:/system/etc/firmware/a330_pm4.fw \
+        vendor/oneplus/onyx/proprietary/vendor/firmware/a330_pfp.fw:/system/vendor/firmware/a330_pfp.fw \
+        vendor/oneplus/onyx/proprietary/vendor/firmware/a330_pm4.fw:/system/vendor/firmware/a330_pm4.fw \
         vendor/oneplus/onyx/proprietary/vendor/firmware/keymaster/keymaster.b00:/system/vendor/firmware/keymaster/keymaster.b00 \
         vendor/oneplus/onyx/proprietary/vendor/firmware/keymaster/keymaster.b01:/system/vendor/firmware/keymaster/keymaster.b01 \
         vendor/oneplus/onyx/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \

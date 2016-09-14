@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <!--
      DSI Module configuration XML file
      Copyright (c) 2013, 2015 Qualcomm Technologies, Inc.  All Rights Reserved.
      Qualcomm Technologies Proprietary and Confidential.
 -->
 
+<?xml version="1.0" encoding="UTF-8"?>
 <list name="dsi_config">
 
    <!-- Configuration for legacy MSM targets -->
@@ -15,7 +14,7 @@
      <data name="rmnet_data_enabled" type="int"> 0 </data>
      <data name="phys_net_dev" type="string"> rmnet0 </data>
 
-     <data name="single_qmux_channel_enabled" type="int"> 0 </data>
+     <data name="single_qmux_channel_enabled" type="int"> 1 </data>
      <data name="single_qmux_channel_name" type="string"> rmnet0 </data>
 
      <data name="num_dsi_handles" type="int"> 8 </data>

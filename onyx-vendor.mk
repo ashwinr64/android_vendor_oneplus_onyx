@@ -265,7 +265,6 @@ PRODUCT_PACKAGES += \
     libTimeService \
     shutdownlistener \
     TimeService \
-    CNEService \
     qcrilmsgtunnel \
     cneapiclient \
     com.google.widevine.software.drm \

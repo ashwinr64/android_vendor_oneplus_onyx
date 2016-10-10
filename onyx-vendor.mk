@@ -105,6 +105,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_ov8858_liveshot.so:system/vendor/lib/libchromatix_ov8858_liveshot.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_ov8858_preview_binding.so:system/vendor/lib/libchromatix_ov8858_preview_binding.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_ov8858_preview.so:system/vendor/lib/libchromatix_ov8858_preview.so \
+    vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_ov8858_small_video.so:system/vendor/lib/libchromatix_ov8858_small_video.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_ov8858_snapshot.so:system/vendor/lib/libchromatix_ov8858_snapshot.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_s5k3m2_common_panorama.so:system/vendor/lib/libchromatix_s5k3m2_common_panorama.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_s5k3m2_common.so:system/vendor/lib/libchromatix_s5k3m2_common.so \
@@ -124,6 +125,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/oneplus/onyx/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
@@ -250,6 +252,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
+    vendor/oneplus/onyx/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
@@ -266,6 +269,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
+    libloc_ds_api \
     libmm-abl \
     libtime_genoff \
     libTimeService \
